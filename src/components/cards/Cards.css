@@ -1,0 +1,138 @@
+.heading {
+  
+    text-align: start;
+    margin: 30px;
+    color: rgb(45, 45, 45);
+    
+   
+  }
+  
+ .heading h1{
+  
+    font-size: xx-large;
+ }
+
+.cardContainer {
+    display: flex;
+   
+        
+      
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: start;
+    flex: 1; 
+    max-width: 360px; 
+    margin: 10px; 
+  }
+  
+  
+  .card p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .card ul li {
+    margin: 5px 0;
+  }
+  
+  .card h6 {
+    color: #007acc;
+    cursor: pointer;
+  }
+  
+  .underline {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+
+.btn-right {
+  margin-right: 2rem;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+}
+
+.bg-blue {
+  background-color: skyblue;
+  border-radius: 50px;
+  padding: 5px;
+  color: #000;
+}
+
+.roundbtn {
+  color: grey;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 5px 20px;
+  padding-left: 0;
+  transition: background-color 0.3s ease; 
+}
+
+.btn1 {
+  background-color: orange;
+}
+
+.btn2 {
+  background-color: tomato;
+}
+
+.btn3 {
+  background-color: pink;
+}
+
+
+.btn1,
+.btn2,
+.btn3,
+.roundbtn {
+  font-weight: 600;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Add Rectangle button transitions */
+}
+
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.roundbtn:hover {
+  background-color: skyblue;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+  
+  @media (max-width:748px){
+    .cardContainer{
+       flex-direction: column;
+       width: 100%;
+    }
+    .heading{
+      margin: 1rem;
+      text-align: center;
+    }
+    .heading h1{
+  
+      font-size: larger;
+   }
+  }

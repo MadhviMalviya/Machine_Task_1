@@ -1,0 +1,105 @@
+
+.rectangleBoxMain{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+   
+   
+}
+
+.flexbox_1, .flexbox_2{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding: 5px;
+    margin: 1rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+.flexbox_2 li{
+font-size: small;
+list-style: none;
+}
+.flexbox_1 li{
+font-size: small;
+list-style: none;
+}
+.btn_1_1{
+    margin-top: 1rem;
+    background-color: lawngreen;
+    border-radius: 50px;
+    border: none;
+    padding:7px;
+
+}
+.btn_1_2{
+    padding: 1em;
+    font-weight: 600;
+    font-size: medium;
+    background-color:lawngreen;
+    border-radius: 7px;
+    border: none;
+}
+.btn_2_1{
+    background-color:rgb(153, 153, 233);
+    border-radius: 50px;
+    border: none;
+    padding:7px;
+
+}
+.btn_2_2{
+    padding: 1em;
+    font-weight: 600;
+    font-size: medium;
+    background-color:rgb(153, 153, 233);
+    border-radius: 7px;
+    border: none;
+}
+
+
+@media (max-width:748px){
+   
+    .flexbox_1, .flexbox_2{
+        width: 100%;
+      
+       
+        
+    }
+}
+
+
+
+.flex1{
+    flex:1;
+    margin: 1em;
+   
+}
+
+
+
+
+
+.btn_1_1,
+.btn_1_2,
+.btn_2_1,
+.btn_2_2 {
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+
+.btn_1_1:hover,
+.btn_1_2:hover,
+.btn_2_1:hover,
+.btn_2_2:hover {
+    
+  background-color:skyblue;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.05); 
+}
+
+
